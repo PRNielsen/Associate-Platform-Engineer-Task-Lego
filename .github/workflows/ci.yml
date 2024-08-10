@@ -33,7 +33,6 @@ jobs:
       - name: Run tests
         run: docker-compose run test
 
-  # Optional: Deploy Job Example
   deploy:
     runs-on: ubuntu-latest
     needs: build
