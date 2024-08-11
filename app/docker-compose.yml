@@ -1,8 +1,8 @@
 version: '3.8'
 services:
   app:
-    image: prnie/python-flask-api:latest
     build: .
+    image: prnie/python-flask-api:latest
     ports:
       - "5000:5000"
     environment:
