@@ -37,7 +37,7 @@ jobs:
         working-directory: app
 
       - name: Tag Docker image
-        run: docker tag prnie/python-flask-api:latest prnie/python-flask-api:latest
+        run: docker tag app_app prnie/python-flask-api:latest
 
       - name: Run tests
         run: docker-compose run test
