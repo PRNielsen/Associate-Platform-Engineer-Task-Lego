@@ -36,6 +36,9 @@ jobs:
         run: docker-compose build
         working-directory: app
 
+      - name: List Docker images
+        run: docker images
+
       # - name: Tag Docker image
       #   run: docker tag prnie/python-flask-api:latest prnie/python-flask-api:latest
 
