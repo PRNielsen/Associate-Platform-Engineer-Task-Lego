@@ -9,8 +9,6 @@ import requests
 import json
 from flask import Flask, redirect, jsonify
 
-# Added Comment
-
 VERSION = "1.1.1"
 REDIS_ENDPOINT = environ.get("REDIS_ENDPOINT", "localhost")
 REDIS_PORT = int(environ.get("REDIS_PORT", "6379"))
